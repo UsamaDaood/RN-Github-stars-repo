@@ -24,20 +24,26 @@ Features
 ```plaintext
 src/
 │
-├── pages/
-│   └── Home.tsx
+├── screens/
+│   └── RepoListScreen.tsx
+│
+├── app/
+│   └── store.tsx
 │
 ├── components/
+│   ├── Header.tsx
 │   ├── RepoItem.tsx
 │   ├── RepoModal.tsx
-│   ├── SearchBar.tsx
-│   └── ShimmerRepo.tsx
+│   └── ShimmerRepoItem.tsx
 │
-├── hooks/
-│   └── useRepos.ts
+├── feature/
+│   └── reposSlice.ts
 │
-├── utils/
-│   └── storage.ts
+├── services/
+│   └── githubApi.ts
+│
+├── theme/
+│   └── theme.ts
 │
 ├── App.tsx
 ```
